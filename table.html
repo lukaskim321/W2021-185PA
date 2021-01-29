@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <title>CMPSC185 pa2</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body id="table" style="background-color: white"></body>
+    <div class="navigation-bar">
+        <div class="tab">
+            <a href="index.html">Text</a>
+        </div> 
+        <div class="tab">
+            <a href="image.html">Image</a>
+        </div>
+        <div class="tab">
+            <a href="video.html">Video</a>
+        </div>
+        <div class="tab-dummy">
+            <a href="table.html">Table</a>
+        </div>
+        <div class="tab">
+            <a href="email.html">Email</a>
+        </div>
+    </div>
+
+    <div class="header">
+        <h1>Table</h1>
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-item">#</div>
+        <div class="grid-item">Search Engine</div>
+        <div class="grid-item">1</div>
+        <div class="grid-item">
+            <a href="https://www.google.com">Google</a>
+        </div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">
+            <a href="https://www.yahoo.com">Yahoo</a>
+        </div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">
+            <a href="https://www.bing.com">Bing</a>
+        </div>
+    </div>
+
+    <button onclick="topFunction()" id="return-button" title="Return to top of page">Back to top</button>
+
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("return-button").style.display = "block";
+            } else {
+                document.getElementById("return-button").style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+
+    </script>
+</body>
+
+</html>

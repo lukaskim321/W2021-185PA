@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <title>CMPSC185 pa2</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body id="image" style="background-color: white">
+    <script defer src="imageLightBox.js"></script>
+
+    <div class="navigation-bar">
+        <div class="tab">
+            <a href="index.html">Text</a>
+        </div> 
+        <div class="tab-dummy">
+            <a href="image.html">Image</a>
+        </div>
+        <div class="tab">
+            <a href="video.html">Video</a>
+        </div>
+        <div class="tab">
+            <a href="table.html">Table</a>
+        </div>
+        <div class="tab">
+            <a href="email.html">Email</a>
+        </div>
+    </div>
+
+    <div class="header">
+        <h1>Image</h1>
+    </div>
+
+    <div class="image-display">
+        <div>
+            <img src="images/az.jpg" alt="Image" height="300" width="300">
+        </div> 
+        <div>
+            <img src="images/joey.jpg" alt="Image" height="300" width="300">
+        </div> 
+        <div>
+            <img src="images/deftones.jpg" alt="Image" height="300" width="300">
+        </div> 
+        <div>
+            <img src="images/fa.jpg" alt="Image" height="300" width="300">
+        </div> 
+        <div>
+            <img src="images/nas.jpg" alt="Image" height="300" width="300">
+        </div>
+        <div>
+            <img src="images/denzel.jpg" alt="Image" height="300" width="300">
+        </div>
+        <div>
+            <img src="images/primer.jpg" alt="Image" height="300" width="300">
+        </div>
+        <div>
+            <img src="images/vangelis.jpg" alt="Image" height="300" width="300">
+        </div>
+    </div>
+
+    <div class="credit">
+        <div>
+            <p id = "para"> &emsp;Source: iTunes<p>
+        <div>
+    <div>
+
+    <button onclick="topFunction()" id="return-button" title="Return to top of page">Back to top</button>
+
+    <!-- https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("return-button").style.display = "block";
+            } else {
+                document.getElementById("return-button").style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+
+    </script> 
+
+</body>
+
+</html>
