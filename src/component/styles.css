@@ -1,0 +1,39 @@
+.navigation-bar > div {
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header {
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.text {
+	background-color: skyblue;
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.video-display {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    grid-gap: 20px;
+    padding: 30px;
+}
+.grid-container {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.grid-item {
+	background-color: skyblue;
+	border: 1px solid white;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.tab:hover {
+    background-color: powderblue;
+}
