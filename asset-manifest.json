@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/W2021-185PA/static/css/main.e816af06.chunk.css",
+    "main.js": "/W2021-185PA/static/js/main.b67fe5ac.chunk.js",
+    "main.js.map": "/W2021-185PA/static/js/main.b67fe5ac.chunk.js.map",
+    "runtime-main.js": "/W2021-185PA/static/js/runtime-main.aa3701ca.js",
+    "runtime-main.js.map": "/W2021-185PA/static/js/runtime-main.aa3701ca.js.map",
+    "static/js/2.571f8014.chunk.js": "/W2021-185PA/static/js/2.571f8014.chunk.js",
+    "static/js/2.571f8014.chunk.js.map": "/W2021-185PA/static/js/2.571f8014.chunk.js.map",
+    "static/js/3.f2e579f4.chunk.js": "/W2021-185PA/static/js/3.f2e579f4.chunk.js",
+    "static/js/3.f2e579f4.chunk.js.map": "/W2021-185PA/static/js/3.f2e579f4.chunk.js.map",
+    "index.html": "/W2021-185PA/index.html",
+    "static/css/main.e816af06.chunk.css.map": "/W2021-185PA/static/css/main.e816af06.chunk.css.map",
+    "static/js/2.571f8014.chunk.js.LICENSE.txt": "/W2021-185PA/static/js/2.571f8014.chunk.js.LICENSE.txt",
+    "static/media/az.6f9357db.jpg": "/W2021-185PA/static/media/az.6f9357db.jpg",
+    "static/media/deftones.95c459de.jpg": "/W2021-185PA/static/media/deftones.95c459de.jpg",
+    "static/media/denzel.d93008d1.jpg": "/W2021-185PA/static/media/denzel.d93008d1.jpg",
+    "static/media/fa.d287d4c9.jpg": "/W2021-185PA/static/media/fa.d287d4c9.jpg",
+    "static/media/joey.8a9ca937.jpg": "/W2021-185PA/static/media/joey.8a9ca937.jpg",
+    "static/media/nas.74abce07.jpg": "/W2021-185PA/static/media/nas.74abce07.jpg",
+    "static/media/primer.3b9fef8a.jpg": "/W2021-185PA/static/media/primer.3b9fef8a.jpg",
+    "static/media/vangelis.d01dd830.jpg": "/W2021-185PA/static/media/vangelis.d01dd830.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aa3701ca.js",
+    "static/js/2.571f8014.chunk.js",
+    "static/css/main.e816af06.chunk.css",
+    "static/js/main.b67fe5ac.chunk.js"
+  ]
+}
